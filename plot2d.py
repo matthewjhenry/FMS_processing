@@ -1,11 +1,12 @@
 # Make sure you install all these packages
+# i.e. : matplotlib, netCDF4, numpy
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import netCDF4
 import numpy as np
 
 # Going to use example data in ./data/* which is
-# average of history and surface files from a 
+# average of history files from a 
 # control run of AM2rad
 data = netCDF4.Dataset('./data/day_ave.nc')
 
@@ -63,4 +64,4 @@ plt.ylabel('Sigma level (p/ps)')
 plt.title('Temperature (K) (300ppm)')
 fig = plt.gcf()
 plt.show()
-fig.savefig('fig2.eps')
+#fig.savefig('fig2.eps')
