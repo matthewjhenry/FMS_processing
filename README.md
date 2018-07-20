@@ -3,6 +3,7 @@
 ### This is a repository with some example python scripts to process output from the flexible modeling system (FMS, https://www.gfdl.noaa.gov/fms/) climate model.
 
 + plot2d.py : plots a field in 2d
++ latitudinal_mean.py : calculates a latitudinal mean of a 1d field and plots it.
 
 To run, make sure python is installed and all the packages at the top of the file are installed.
 
